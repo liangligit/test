@@ -19,6 +19,11 @@ public class UserController {
  @Autowired
  private UserService userService;
 
+ @RequestMapping("toMain")
+ public String toMain(){
+  return "";
+ }
+
  @RequestMapping("toIndex")
  private String toIndex(){
   return "index";
